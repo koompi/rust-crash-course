@@ -1,3 +1,5 @@
+pub mod models;
+
 use std::fmt::Display;
 
 use libweteka::add;
