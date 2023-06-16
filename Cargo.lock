@@ -1406,6 +1406,22 @@ dependencies = [
 ]
 
 [[package]]
+name = "rest"
+version = "0.1.0"
+dependencies = [
+ "actix-web",
+ "actix-web-lab",
+ "dotenv",
+ "futures",
+ "futures-util",
+ "jsonwebtoken",
+ "mongodb",
+ "serde",
+ "serde_json",
+ "time",
+]
+
+[[package]]
 name = "ring"
 version = "0.16.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
